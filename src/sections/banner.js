@@ -59,7 +59,7 @@ const Banner = () => {
         />
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Innovation Management Tool balals asabslasla sas </Heading>
+        <Heading as="h2">India's First Innovation Management Tool</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>

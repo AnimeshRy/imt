@@ -13,42 +13,42 @@ const SERVICES_DATA = [
   {
     image: serviceImage1,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: '3D modeling & art',
+      'Innovation management tool examines an idea holistically by evaluating its existing competition and returns it score required for a patent.',
+    heading: 'Patentability Score',
     path: '#',
   },
   {
     image: serviceImage2,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Digital promotion',
+      "Finding mentors is hard ? IMT helps students find their suitable mentors based on the idea's technology and various other metrics.",
+    heading: 'Find your dream mentor',
     path: '#',
   },
   {
     image: serviceImage3,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Business Enterprise',
+      'Organizations have the ease of working with students ideas in a more organic and fully online way.',
+    heading: 'Manage Student Ideas',
     path: '#',
   },
   {
     image: serviceImage4,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
+      'IMT can help you market your idea to a whole new level.',
     heading: 'Marketing & advertising',
     path: '#',
   },
   {
     image: serviceImage5,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
+      'Start with a idea, find a team and develop your idea to a full fledged startup with us.',
     heading: 'Ultimate development',
     path: '#',
   },
   {
     image: serviceImage6,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
+      'IMT is 100% online and any individual will get 24/7 online support while working with us.',
     heading: 'Online support',
     path: '#',
   },
@@ -58,8 +58,8 @@ const Services = () => {
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="What the features of product"
-          text="Features are highlighted here"
+          title="What does this tool even do ?"
+          text="Features of IMT's Web and Android Portal"
         />
         <Grid sx={styles.grid}>
           {SERVICES_DATA.map(({ image, text, heading, path }, index) => (

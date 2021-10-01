@@ -20,7 +20,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Innovation Management Tool" />
+          <SEO title="India's First Innovation Management Tool" />
           <Banner />
           <Services />
           <Jackpot />

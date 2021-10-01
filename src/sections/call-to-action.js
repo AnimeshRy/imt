@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
 import { Link } from 'components/link';
 
-import callImage from 'assets/call-image.png';
+import callImage from 'assets/site-score.svg';
 
 const CallToAction = () => {
   return (
@@ -10,15 +10,14 @@ const CallToAction = () => {
       <Container>
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
-            <Text as="span">Behind the design</Text>
+            <Text as="span">Patent ?</Text>
             <Heading as="h3">
-              Code that we used to built the website with integrating apps
+              Get a Patentability Score for your Idea
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever. Get your tests delivered at let home collect
-              sample.
+              Our Portal uses Open AI's exclusive GPT3 to scrape results from around the world to find
+              a score for your idea based on various paramets. This score will help you decide to register a patent
+              for your idea.
             </Text>
             <Link path="#" sx={styles.button}>
               Explore More
@@ -90,6 +89,6 @@ const styles = {
     },
   },
   images: {
-    flex: ['0 0 100%', null, null, null, '0 0 61.5%'],
+    flex: ['0 0 100%', null, null, null, '0 0 61.5%']
   },
 };

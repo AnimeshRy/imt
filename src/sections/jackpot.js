@@ -9,14 +9,14 @@ const JACKPOT_DATA = [
   {
     image: jackpotImage1,
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Smart Features',
+      'Students gets exclusive access to our cross platform mobile app for find teams, mentors and much more.',
+    heading: 'Student Access',
   },
   {
     image: jackpotImage2,
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Secure Contents',
+      'Find people vibing with your idea by just clicking some buttons on your phone.',
+    heading: 'Social Network',
   },
 ];
 
@@ -30,8 +30,8 @@ const Jackpot = () => {
           </Box>
           <Box sx={styles.content}>
             <Box sx={styles.heading}>
-              <Text as="span">Core features</Text>
-              <Heading as="h3">Register mentors for your students</Heading>
+              <Text as="span">Mobile App</Text>
+              <Heading as="h3">Exclusive Student Only Mobile App</Heading>
             </Box>
             <Box sx={styles.jackpotCardBox}>
               {JACKPOT_DATA.map(({ image, heading, text }, index) => (

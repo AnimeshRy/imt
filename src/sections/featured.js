@@ -43,8 +43,8 @@ const Featured = () => {
     <Box as="section" sx={styles.featured}>
       <Container sx={styles.container}>
         <BlockTitle
-          title="What the features of product"
-          text="Introducing all screen details"
+          title="What does the product offer ?"
+          text="Get a walkthrough of how we'll integrate within your organization"
         />
         <Box sx={styles.tabButtonTopWrapper}>
           <Box sx={styles.tabButtonWrapper}>

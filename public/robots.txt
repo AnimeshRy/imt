@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://imt-seven.vercel.app/
+
+# Sitemaps
+Sitemap: https://imt-seven.vercel.app/sitemap.xml
