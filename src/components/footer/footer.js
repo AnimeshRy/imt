@@ -26,7 +26,7 @@ export default function Footer() {
               mr: ['10px', null, null, null, null, '0'],
             }}
           >
-            Copyright by {new Date().getFullYear()} MoE, Innovation Cell
+            Copyright by {new Date().getFullYear()} Able Inc.
           </Text>
         </Box>
         <Box sx={styles.linksWrap}>

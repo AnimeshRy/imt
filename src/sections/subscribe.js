@@ -7,7 +7,7 @@ const Subscribe = () => {
       <Container>
         <Heading as="h3">Schedule a meeting with us</Heading>
         <Text as="p">
-          Hit
+          Enter your email for a appointment and we'll respond with a confirmation.
         </Text>
         <Box as="form" sx={styles.form}>
           <Box as="label" htmlFor="subscribeEmail" variant="styles.srOnly">
@@ -20,7 +20,7 @@ const Subscribe = () => {
             sx={styles.input}
           />
           <Button type="submit" sx={styles.button}>
-            Contact Us
+            Send
           </Button>
         </Box>
       </Container>
@@ -32,6 +32,7 @@ export default Subscribe;
 
 const styles = {
   subscribe: {
+    mt: [5],
     py: ['80px', null, null, null, '80px', '100px', '140px'],
     backgroundColor: '#020718',
     h3: {
